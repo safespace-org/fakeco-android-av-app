@@ -164,7 +164,7 @@
 
 ### Theme and Styling
 - [ ] Create color resources
-  - [ ] Primary: #C01818 (McAfee Red)
+  - [ ] Primary: #C01818 (FakeCo Red)
   - [ ] Secondary: #FFFFFF (White)
   - [ ] Background: #F8F8F8 (Light Gray)
   - [ ] Text: #333333 (Dark Gray)
