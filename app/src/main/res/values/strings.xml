@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FakeCo Security</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_protection">Protection</string>
+    <string name="title_settings">Settings</string>
+    
+    <!-- Dashboard Screen -->
+    <string name="dashboard_security_status">Security Status</string>
+    <string name="dashboard_status_protected">Protected</string>
+    <string name="dashboard_status_at_risk">At Risk</string>
+    <string name="dashboard_status_vulnerable">Vulnerable</string>
+    <string name="dashboard_scan">Virus Scan</string>
+    <string name="dashboard_scan_description">Scan your device for viruses, malware, and other threats</string>
+    <string name="dashboard_protection">Real-time Protection</string>
+    <string name="dashboard_protection_description">Protect your device from threats in real-time</string>
+    <string name="dashboard_vpn">Secure VPN</string>
+    <string name="dashboard_vpn_description">Encrypt your connection and protect your privacy</string>
+    <string name="dashboard_web_protection">Web Protection</string>
+    <string name="dashboard_web_protection_description">Block malicious websites and phishing attempts</string>
+    <string name="dashboard_last_scan_title">Last Scan</string>
+    <string name="dashboard_last_scan_never">Never scanned</string>
+    <string name="dashboard_last_scan_format">Last scan: %s</string>
+    <string name="dashboard_threats_found_format">Threats found: %d</string>
+    <string name="dashboard_no_threats_found">No threats found</string>
+    <string name="dashboard_settings">Settings</string>
+    <string name="dashboard_settings_description">Configure app settings and preferences</string>
+    
+    <!-- Scan Screen -->
+    <string name="scan_idle_title">Scan Your Device</string>
+    <string name="scan_idle_description">Scan your device for viruses, malware, and other threats to ensure your security</string>
+    <string name="scan_start">Start Scan</string>
+    <string name="scan_stop">Stop Scan</string>
+    <string name="scan_new">New Scan</string>
+    <string name="scan_done">Done</string>
+    <string name="scan_scanning">Scanning…</string>
+    <string name="scan_stats_title">Scan Statistics</string>
+    <string name="scan_files_scanned">Files scanned: %d</string>
+    <string name="scan_threats_found">Threats found: %d</string>
+    <string name="scan_time_elapsed">Time elapsed: %s</string>
+    <string name="scan_no_threats_found">No threats found</string>
+    <string name="scan_no_threats_description">Your device is clean and secure. No malware or suspicious files were detected during the scan.</string>
+    <string name="scan_threats_found_title">%d Threats Found</string>
+    <string name="scan_threats_found_description">Threats were detected on your device. Review the list below and take action to secure your device.</string>
+    <string name="scan_quarantine_all">Quarantine All</string>
+    
+    <!-- Threat Items -->
+    <string name="threat_severity_low">LOW</string>
+    <string name="threat_severity_medium">MEDIUM</string>
+    <string name="threat_severity_high">HIGH</string>
+    <string name="threat_severity_critical">CRITICAL</string>
+    <string name="threat_quarantine">Quarantine</string>
+    <string name="threat_quarantined">Quarantined</string>
+    
+    <!-- Protection Screen -->
+    <string name="protection_enabled">Protection Enabled</string>
+    <string name="protection_disabled">Protection Disabled</string>
+    <string name="protection_level_title">Protection Level</string>
+    <string name="protection_level_low">Low (Basic protection, minimal system impact)</string>
+    <string name="protection_level_medium">Medium (Balanced protection and performance)</string>
+    <string name="protection_level_high">High (Maximum protection, may impact performance)</string>
+    <string name="protection_stats_title">Protection Statistics</string>
+    <string name="protection_threats_blocked">Threats blocked:</string>
+    <string name="protection_apps_scanned">Apps scanned:</string>
+    <string name="protection_last_updated">Last updated:</string>
+    <string name="protection_log_title">Protection Log</string>
+    <string name="protection_log_empty">No protection events recorded yet</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_category_general">General</string>
+    <string name="settings_theme_title">Theme</string>
+    <string name="settings_theme_summary">Change the app appearance</string>
+    <string name="settings_version_title">App Version</string>
+    
+    <string name="settings_category_notifications">Notifications</string>
+    <string name="settings_notifications_scan_title">Scan Notifications</string>
+    <string name="settings_notifications_scan_summary">Receive notifications about scan results</string>
+    <string name="settings_notifications_protection_title">Protection Notifications</string>
+    <string name="settings_notifications_protection_summary">Receive notifications about blocked threats</string>
+    
+    <string name="settings_category_data">Data</string>
+    <string name="settings_clear_scan_history_title">Clear Scan History</string>
+    <string name="settings_clear_scan_history_summary">Delete all scan history and results</string>
+    <string name="settings_clear_all_data_title">Clear All Data</string>
+    <string name="settings_clear_all_data_summary">Reset all app data and settings</string>
+    <string name="settings_scan_history_cleared">Scan history cleared</string>
+    <string name="settings_all_data_cleared">All data cleared</string>
+    
+    <string name="settings_category_about">About</string>
+    <string name="settings_privacy_policy_title">Privacy Policy</string>
+    <string name="settings_privacy_policy_summary">View our privacy policy</string>
+    <string name="settings_terms_of_service_title">Terms of Service</string>
+    <string name="settings_terms_of_service_summary">View our terms of service</string>
+    
+    <!-- Status -->
+    <string name="status_safe">Safe</string>
+    <string name="status_warning">Warning</string>
+    <string name="status_danger">Danger</string>
+    <string name="status_critical">Critical</string>
+    
+    <!-- Theme -->
+    <string-array name="theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System default</item>
+    </string-array>
+    
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>system</item>
+    </string-array>
+    
+    <!-- Common -->
+    <string name="action_enable">Enable</string>
+    <string name="action_disable">Disable</string>
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+</resources>
