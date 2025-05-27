@@ -2,7 +2,9 @@
 
 A professional-looking mock anti-virus application for Android built with Kotlin, demonstrating modern Android development practices.
 
-![FakeCo Security](https://via.placeholder.com/800x400?text=FakeCo+Security)
+- Created by Omer Ansari, and a ton of tokens
+- Create date: 5/26/2025
+
 
 ## Table of Contents
 
